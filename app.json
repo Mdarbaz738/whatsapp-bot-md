@@ -4,7 +4,7 @@
   "keywords": ["noedjs"],
   "success_url": "/",
   "env": {
-    "ALWAYS_ONLINE": {
+    "ALWAYS_ONLINE": "true"
       "description": "show bot number last seen as online",
       "required": false,
       "value": "false"
@@ -14,12 +14,12 @@
       "required": false,
       "value": "false"
     },
-    "SUDO": {
+    "SUDO": "917478172267
       "description": "admin",
       "required": false,
       "value": ""
     },
-    "PREFIX": {
+    "PREFIX": "."
       "description": "prefix, check for more",
       "required": false,
       "value": "."
@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "❤️, Nirmala"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -69,7 +69,7 @@
     },
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
-      "required": false,
+      "required": true,
       "value": "_Antilink Detected &mention kicked_"
     },
     "ANTISPAM_MSG": {
@@ -100,12 +100,12 @@
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AJOIN": {
       "description": "Accept Group join request(Group privacy)",
